@@ -4,7 +4,7 @@
 #include <ctime>
 using namespace std;
 
-// 生成一个 1..n 的随机排列（Fisher-Yates 洗牌算法）
+// 生成一个 1..n 的随机排列
 void randomPermutation(int arr[], int n) {
     // 初始化为 1,2,3,...,n
     for (int i = 0; i < n; i++) {
